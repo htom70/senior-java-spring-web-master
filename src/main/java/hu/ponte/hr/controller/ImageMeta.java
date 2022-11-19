@@ -1,5 +1,6 @@
 package hu.ponte.hr.controller;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -8,8 +9,8 @@ import lombok.Getter;
  */
 @Getter
 @Builder
-public class ImageMeta
-{
+@AllArgsConstructor
+public class ImageMeta {
 	private String id;
 	private String name;
 	private String mimeType;
